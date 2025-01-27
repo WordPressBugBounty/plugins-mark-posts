@@ -2,6 +2,16 @@
 
 Notable changes and release notes of the Mark Posts WordPress plugin.
 
+## 2.2.5
+* Adds additional user capability checks (quick edit and bulk edit)
+* Adds Laravel Pint code style fixer as a developer dependency
+
+## 2.2.4
+* Adds support for the [WordPress playground](https://playground.wordpress.net/?plugin=mark-posts)
+* Hides new internal post types by default
+* Fixes broken access control vulnerability
+  Thanks @truonghuuphuc for discovering and responsibly disclosing this vulnerability
+
 ## 2.2.3
 * Fixes the assignment of default colors when creating multiple new markers
 

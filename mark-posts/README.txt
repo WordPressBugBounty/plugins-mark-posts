@@ -1,10 +1,10 @@
 === Mark Posts ===
 Contributors: hofmannsven, flymke
-Tags: mark posts, highlight, highlight posts, status, post status, overview, post overview, featured, custom posts, featured posts, post, posts
+Tags: highlight, color, status, tag, featured
 Requires at least: 4.1
-Tested up to: 6.4
+Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 2.2.3
+Stable tag: 2.2.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.txt
 
@@ -92,6 +92,16 @@ Visit [Mark Posts on Github](https://github.com/hofmannsven/mark-posts).
 5. Shows a screenshot of the Mark Posts dashboard widget.
 
 == Changelog ==
+
+= 2.2.5 =
+* Adds additional user capability checks (quick edit and bulk edit)
+* Adds Laravel Pint code style fixer as a developer dependency
+
+= 2.2.4 =
+* Adds support for the [WordPress playground](https://playground.wordpress.net/?plugin=mark-posts)
+* Hides new internal post types by default
+* Fixes broken access control vulnerability
+  Thanks @truonghuuphuc for discovering and responsibly disclosing this vulnerability
 
 = 2.2.3 =
 * Fixes the assignment of default colors when creating multiple new markers
