@@ -1,8 +1,8 @@
 === Mark Posts ===
-Contributors: hofmannsven
+Contributors: hofmannsven, flymke
 Tags: highlight, color, status, tag, featured
 Requires at least: 4.1
-Tested up to: 6.7
+Tested up to: 7.1
 Requires PHP: 7.0
 Stable tag: 2.2.6
 License: GPLv2 or later
